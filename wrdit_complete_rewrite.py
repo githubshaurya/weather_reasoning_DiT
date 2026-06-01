@@ -36,13 +36,6 @@ SEVERITY_LEVELS = {'LOW': 0, 'MEDIUM': 1, 'HIGH': 2}
 BALANCED_SAMPLING_WEIGHTS = {'Raindrop': 4.3, 'Rain': 6.1, 'Snow': 1.1}
 
 print('='*120)
-print('🚀 WRDiT v4 FINAL FIX - THRESHOLD GRADIENT UNFROZEN')
-print('='*120)
-print(' FIX 1: RouterLoss uses ALWAYS-ACTIVE differentiable penalty')
-print(' FIX 2: Straight-through estimator for token selection')
-print(' FIX 3: All router parameters have continuous gradient paths')
-print(' FIX 4: Explicit gradient verification in logging')
-print('='*120 + '\n')
 
 # ============================================================================
 # AUTO-DETECT MOBILENETV3 CHANNELS
